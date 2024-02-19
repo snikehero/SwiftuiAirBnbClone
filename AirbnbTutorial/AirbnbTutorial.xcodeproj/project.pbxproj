@@ -12,6 +12,7 @@
 		5F12752C2B8415FF00CA07E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F12752B2B8415FF00CA07E2 /* Assets.xcassets */; };
 		5F1275302B8415FF00CA07E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F12752F2B8415FF00CA07E2 /* Preview Assets.xcassets */; };
 		5F1275432B8416FF00CA07E2 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1275422B8416FF00CA07E2 /* ExploreView.swift */; };
+		5F1275452B8417AA00CA07E2 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1275442B8417AA00CA07E2 /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F12752D2B8415FF00CA07E2 /* AirbnbTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirbnbTutorial.entitlements; sourceTree = "<group>"; };
 		5F12752F2B8415FF00CA07E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F1275422B8416FF00CA07E2 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		5F1275442B8417AA00CA07E2 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		5F12753C2B84166200CA07E2 /* Listings */ = {
 			isa = PBXGroup;
 			children = (
+				5F1275442B8417AA00CA07E2 /* ListingItemView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F12752A2B8415FE00CA07E2 /* ContentView.swift in Sources */,
+				5F1275452B8417AA00CA07E2 /* ListingItemView.swift in Sources */,
 				5F1275432B8416FF00CA07E2 /* ExploreView.swift in Sources */,
 				5F1275282B8415FE00CA07E2 /* AirbnbTutorialApp.swift in Sources */,
 			);
