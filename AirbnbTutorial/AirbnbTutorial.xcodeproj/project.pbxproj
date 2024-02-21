@@ -16,6 +16,9 @@
 		5F1275472B841BD900CA07E2 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1275462B841BD900CA07E2 /* SearchAndFilterBar.swift */; };
 		5F1275492B841E4900CA07E2 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1275482B841E4900CA07E2 /* ListingDetailView.swift */; };
 		5F12754C2B841EA800CA07E2 /* ListingImageCarrouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F12754B2B841EA800CA07E2 /* ListingImageCarrouselView.swift */; };
+		5FF51D292B860163002277F7 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D282B860163002277F7 /* DestinationSearchView.swift */; };
+		5FF51D2B2B8607A8002277F7 /* CollapsedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D2A2B8607A8002277F7 /* CollapsedPickerView.swift */; };
+		5FF51D2E2B8607D5002277F7 /* DestinationSearchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D2D2B8607D5002277F7 /* DestinationSearchOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		5F1275462B841BD900CA07E2 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		5F1275482B841E4900CA07E2 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		5F12754B2B841EA800CA07E2 /* ListingImageCarrouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarrouselView.swift; sourceTree = "<group>"; };
+		5FF51D282B860163002277F7 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		5FF51D2A2B8607A8002277F7 /* CollapsedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsedPickerView.swift; sourceTree = "<group>"; };
+		5FF51D2D2B8607D5002277F7 /* DestinationSearchOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 		5F1275262B8415FE00CA07E2 /* AirbnbTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				5FF51D2C2B8607C7002277F7 /* Enums */,
 				5F1275392B84163300CA07E2 /* Models */,
 				5F1275382B84162A00CA07E2 /* Extensions */,
 				5F1275372B84161C00CA07E2 /* Core */,
@@ -132,6 +139,7 @@
 			children = (
 				5F1275422B8416FF00CA07E2 /* ExploreView.swift */,
 				5F1275462B841BD900CA07E2 /* SearchAndFilterBar.swift */,
+				5FF51D282B860163002277F7 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -184,8 +192,17 @@
 			isa = PBXGroup;
 			children = (
 				5F12754B2B841EA800CA07E2 /* ListingImageCarrouselView.swift */,
+				5FF51D2A2B8607A8002277F7 /* CollapsedPickerView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		5FF51D2C2B8607C7002277F7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5FF51D2D2B8607D5002277F7 /* DestinationSearchOptions.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,12 +276,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F12752A2B8415FE00CA07E2 /* ContentView.swift in Sources */,
+				5FF51D292B860163002277F7 /* DestinationSearchView.swift in Sources */,
+				5FF51D2B2B8607A8002277F7 /* CollapsedPickerView.swift in Sources */,
 				5F1275452B8417AA00CA07E2 /* ListingItemView.swift in Sources */,
 				5F1275432B8416FF00CA07E2 /* ExploreView.swift in Sources */,
 				5F1275472B841BD900CA07E2 /* SearchAndFilterBar.swift in Sources */,
 				5F12754C2B841EA800CA07E2 /* ListingImageCarrouselView.swift in Sources */,
 				5F1275492B841E4900CA07E2 /* ListingDetailView.swift in Sources */,
 				5F1275282B8415FE00CA07E2 /* AirbnbTutorialApp.swift in Sources */,
+				5FF51D2E2B8607D5002277F7 /* DestinationSearchOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
