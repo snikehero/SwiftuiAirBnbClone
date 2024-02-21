@@ -19,6 +19,7 @@
 		5FF51D292B860163002277F7 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D282B860163002277F7 /* DestinationSearchView.swift */; };
 		5FF51D2B2B8607A8002277F7 /* CollapsedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D2A2B8607A8002277F7 /* CollapsedPickerView.swift */; };
 		5FF51D2E2B8607D5002277F7 /* DestinationSearchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D2D2B8607D5002277F7 /* DestinationSearchOptions.swift */; };
+		5FF51D312B860BA4002277F7 /* CollapsibleDestinationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D302B860BA4002277F7 /* CollapsibleDestinationViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5FF51D282B860163002277F7 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		5FF51D2A2B8607A8002277F7 /* CollapsedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsedPickerView.swift; sourceTree = "<group>"; };
 		5FF51D2D2B8607D5002277F7 /* DestinationSearchOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchOptions.swift; sourceTree = "<group>"; };
+		5FF51D302B860BA4002277F7 /* CollapsibleDestinationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleDestinationViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		5F1275262B8415FE00CA07E2 /* AirbnbTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				5FF51D2F2B860B90002277F7 /* Modifiers */,
 				5FF51D2C2B8607C7002277F7 /* Enums */,
 				5F1275392B84163300CA07E2 /* Models */,
 				5F1275382B84162A00CA07E2 /* Extensions */,
@@ -205,6 +208,14 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
+		5FF51D2F2B860B90002277F7 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5FF51D302B860BA4002277F7 /* CollapsibleDestinationViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,6 +292,7 @@
 				5F1275452B8417AA00CA07E2 /* ListingItemView.swift in Sources */,
 				5F1275432B8416FF00CA07E2 /* ExploreView.swift in Sources */,
 				5F1275472B841BD900CA07E2 /* SearchAndFilterBar.swift in Sources */,
+				5FF51D312B860BA4002277F7 /* CollapsibleDestinationViewModifier.swift in Sources */,
 				5F12754C2B841EA800CA07E2 /* ListingImageCarrouselView.swift in Sources */,
 				5F1275492B841E4900CA07E2 /* ListingDetailView.swift in Sources */,
 				5F1275282B8415FE00CA07E2 /* AirbnbTutorialApp.swift in Sources */,
