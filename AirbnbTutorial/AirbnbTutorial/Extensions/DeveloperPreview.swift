@@ -61,7 +61,7 @@ class DeveloperPreview {
               numberOfGuests: 10,
               numberOfBeds: 1,
               pricePerNight: 5113,
-              latitude: 25.7850,
+              latitude: 39.4802,
               longitude: -80.1936,
               imageURLs: ["listing-4", "listing-3", "listing-2", "listing-1"],
               address: "123 Namekusei St",

@@ -28,6 +28,7 @@
 		5FF51D3F2B8C0817002277F7 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D3E2B8C0817002277F7 /* DeveloperPreview.swift */; };
 		5FF51D442B8C0AA0002277F7 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D432B8C0AA0002277F7 /* ExploreViewModel.swift */; };
 		5FF51D462B8C0AC9002277F7 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D452B8C0AC9002277F7 /* ExploreService.swift */; };
+		5FF51D482B8C5D92002277F7 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF51D472B8C5D92002277F7 /* Regions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		5FF51D3E2B8C0817002277F7 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
 		5FF51D432B8C0AA0002277F7 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		5FF51D452B8C0AC9002277F7 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		5FF51D472B8C5D92002277F7 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				5FF51D3E2B8C0817002277F7 /* DeveloperPreview.swift */,
+				5FF51D472B8C5D92002277F7 /* Regions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				5FF51D462B8C0AC9002277F7 /* ExploreService.swift in Sources */,
 				5FF51D2B2B8607A8002277F7 /* CollapsedPickerView.swift in Sources */,
 				5F1275452B8417AA00CA07E2 /* ListingItemView.swift in Sources */,
+				5FF51D482B8C5D92002277F7 /* Regions.swift in Sources */,
 				5FF51D442B8C0AA0002277F7 /* ExploreViewModel.swift in Sources */,
 				5FF51D3F2B8C0817002277F7 /* DeveloperPreview.swift in Sources */,
 				5FF51D332B8C0073002277F7 /* ProfileView.swift in Sources */,
